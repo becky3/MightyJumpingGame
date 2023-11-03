@@ -1,17 +1,17 @@
 [gd_scene load_steps=4 format=3 uid="uid://bb2pjgkp1oxhf"]
 
-[ext_resource type="Script" path="res://Player.gd" id="1_lc1a5"]
-[ext_resource type="Texture2D" uid="uid://3yuq30mjhbk7" path="res://resources/undou_ashibumi_man.png" id="2_jl8df"]
+[ext_resource type="Script" path="res://Script/Player.gd" id="1_n2ts8"]
+[ext_resource type="Texture2D" uid="uid://3yuq30mjhbk7" path="res://ThirdPartyResources/undou_ashibumi_man.png" id="2_oei3h"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_hoqrl"]
 
 [node name="CharacterBody2D" type="CharacterBody2D"]
-script = ExtResource("1_lc1a5")
+script = ExtResource("1_n2ts8")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 shape = SubResource("CapsuleShape2D_hoqrl")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 scale = Vector2(0.04, 0.04)
-texture = ExtResource("2_jl8df")
+texture = ExtResource("2_oei3h")
 region_rect = Rect2(0, 0, 50, 100)

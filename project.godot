@@ -11,14 +11,18 @@ config_version=5
 [application]
 
 config/name="MightyJumpingGame"
-run/main_scene="res://MainScene.tscn"
+run/main_scene="res://Scene/MainScene.tscn"
 config/features=PackedStringArray("4.1", "Mobile")
-config/icon="res://resources/icon.svg"
+config/icon="res://ThirdPartyResources/icon.svg"
 
 [display]
 
 window/size/viewport_width=1024
 window/size/viewport_height=768
+
+[filesystem]
+
+import/blender/enabled=false
 
 [rendering]
 
