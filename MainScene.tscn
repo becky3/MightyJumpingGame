@@ -1,8 +1,0 @@
-[gd_scene load_steps=2 format=3 uid="uid://bolgvn4yphjxi"]
-
-[ext_resource type="PackedScene" uid="uid://bb2pjgkp1oxhf" path="res://Player.tscn" id="1_183at"]
-
-[node name="Node2D" type="Node2D"]
-
-[node name="CharacterBody2D" parent="." instance=ExtResource("1_183at")]
-scale = Vector2(5, 5)
